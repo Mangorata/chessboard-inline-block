@@ -1,0 +1,23 @@
+
+.board {
+    box-sizing:content-box;
+    position:absolute;
+    top:calc(50% - 15vh);
+    left:calc(50% - 15vh);
+    height:30vh;
+    width:30vh;
+    border:10px solid #000;
+    font-size:0;
+}
+span {
+    display:inline-block;
+    height:50%;
+    width:50%;
+}
+span:first-child,
+span:last-child {
+    background-color:red;
+}
+
+
+
